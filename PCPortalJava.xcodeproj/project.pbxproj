@@ -1,0 +1,675 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D6759CFD2FC3462900478861 /* PCPortalJavaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6759CFC2FC3462900478861 /* PCPortalJavaApp.swift */; };
+		D6759CFF2FC3462900478861 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6759CFE2FC3462900478861 /* ContentView.swift */; };
+		D6759D012FC3462C00478861 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6759D002FC3462C00478861 /* Assets.xcassets */; };
+		D6759D042FC3462C00478861 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6759D032FC3462C00478861 /* Preview Assets.xcassets */; };
+		D6759D0E2FC3462D00478861 /* PCPortalJavaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6759D0D2FC3462D00478861 /* PCPortalJavaTests.swift */; };
+		D6759D182FC3462D00478861 /* PCPortalJavaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6759D172FC3462D00478861 /* PCPortalJavaUITests.swift */; };
+		D6759D1A2FC3462D00478861 /* PCPortalJavaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6759D192FC3462D00478861 /* PCPortalJavaUITestsLaunchTests.swift */; };
+		D6759D282FC3469C00478861 /* Bio.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6759D272FC3469C00478861 /* Bio.swift */; };
+		D6759D2A2FC346B200478861 /* JavaBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6759D292FC346B200478861 /* JavaBook.swift */; };
+		D6759D2C2FC346CF00478861 /* QuizQuestions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6759D2B2FC346CF00478861 /* QuizQuestions.swift */; };
+		D6759D2F2FC346F000478861 /* BioViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6759D2E2FC346F000478861 /* BioViewModel.swift */; };
+		D6759D312FC3470A00478861 /* BooksViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6759D302FC3470A00478861 /* BooksViewModel.swift */; };
+		D6759D332FC3472300478861 /* QuizViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6759D322FC3472300478861 /* QuizViewModel.swift */; };
+		D6759D362FC3474100478861 /* BioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6759D352FC3474100478861 /* BioView.swift */; };
+		D6759D382FC3475F00478861 /* BooksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6759D372FC3475F00478861 /* BooksView.swift */; };
+		D6759D3A2FC3477600478861 /* QuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6759D392FC3477600478861 /* QuizView.swift */; };
+		D6759D3C2FC349C000478861 /* LocationInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6759D3B2FC349C000478861 /* LocationInfo.swift */; };
+		D6759D3E2FC349D700478861 /* LocationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6759D3D2FC349D700478861 /* LocationViewModel.swift */; };
+		D6759D402FC349EF00478861 /* LocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6759D3F2FC349EF00478861 /* LocationView.swift */; };
+		D6759D422FC34CE100478861 /* LocationPin.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6759D412FC34CE100478861 /* LocationPin.swift */; };
+		D682EC8C2FC36EDA00EFB2C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D682EC8B2FC36EDA00EFB2C1 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D6759D0A2FC3462D00478861 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6759CF12FC3462900478861 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6759CF82FC3462900478861;
+			remoteInfo = PCPortalJava;
+		};
+		D6759D142FC3462D00478861 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6759CF12FC3462900478861 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6759CF82FC3462900478861;
+			remoteInfo = PCPortalJava;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D6759CF92FC3462900478861 /* PCPortalJava.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PCPortalJava.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6759CFC2FC3462900478861 /* PCPortalJavaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PCPortalJavaApp.swift; sourceTree = "<group>"; };
+		D6759CFE2FC3462900478861 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D6759D002FC3462C00478861 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D6759D032FC3462C00478861 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D6759D092FC3462D00478861 /* PCPortalJavaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PCPortalJavaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6759D0D2FC3462D00478861 /* PCPortalJavaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PCPortalJavaTests.swift; sourceTree = "<group>"; };
+		D6759D132FC3462D00478861 /* PCPortalJavaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PCPortalJavaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6759D172FC3462D00478861 /* PCPortalJavaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PCPortalJavaUITests.swift; sourceTree = "<group>"; };
+		D6759D192FC3462D00478861 /* PCPortalJavaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PCPortalJavaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D6759D272FC3469C00478861 /* Bio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bio.swift; sourceTree = "<group>"; };
+		D6759D292FC346B200478861 /* JavaBook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JavaBook.swift; sourceTree = "<group>"; };
+		D6759D2B2FC346CF00478861 /* QuizQuestions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizQuestions.swift; sourceTree = "<group>"; };
+		D6759D2E2FC346F000478861 /* BioViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BioViewModel.swift; sourceTree = "<group>"; };
+		D6759D302FC3470A00478861 /* BooksViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksViewModel.swift; sourceTree = "<group>"; };
+		D6759D322FC3472300478861 /* QuizViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewModel.swift; sourceTree = "<group>"; };
+		D6759D352FC3474100478861 /* BioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BioView.swift; sourceTree = "<group>"; };
+		D6759D372FC3475F00478861 /* BooksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksView.swift; sourceTree = "<group>"; };
+		D6759D392FC3477600478861 /* QuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizView.swift; sourceTree = "<group>"; };
+		D6759D3B2FC349C000478861 /* LocationInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationInfo.swift; sourceTree = "<group>"; };
+		D6759D3D2FC349D700478861 /* LocationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewModel.swift; sourceTree = "<group>"; };
+		D6759D3F2FC349EF00478861 /* LocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationView.swift; sourceTree = "<group>"; };
+		D6759D412FC34CE100478861 /* LocationPin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationPin.swift; sourceTree = "<group>"; };
+		D682EC8B2FC36EDA00EFB2C1 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D6759CF62FC3462900478861 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6759D062FC3462D00478861 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6759D102FC3462D00478861 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D6759CF02FC3462900478861 = {
+			isa = PBXGroup;
+			children = (
+				D6759CFB2FC3462900478861 /* PCPortalJava */,
+				D6759D0C2FC3462D00478861 /* PCPortalJavaTests */,
+				D6759D162FC3462D00478861 /* PCPortalJavaUITests */,
+				D6759CFA2FC3462900478861 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D6759CFA2FC3462900478861 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D6759CF92FC3462900478861 /* PCPortalJava.app */,
+				D6759D092FC3462D00478861 /* PCPortalJavaTests.xctest */,
+				D6759D132FC3462D00478861 /* PCPortalJavaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D6759CFB2FC3462900478861 /* PCPortalJava */ = {
+			isa = PBXGroup;
+			children = (
+				D6759D342FC3473400478861 /* View */,
+				D6759D2D2FC346DC00478861 /* ViewModel */,
+				D6759D262FC3468900478861 /* Models */,
+				D6759CFC2FC3462900478861 /* PCPortalJavaApp.swift */,
+				D6759D002FC3462C00478861 /* Assets.xcassets */,
+				D6759D022FC3462C00478861 /* Preview Content */,
+				D682EC8B2FC36EDA00EFB2C1 /* LaunchScreen.storyboard */,
+			);
+			path = PCPortalJava;
+			sourceTree = "<group>";
+		};
+		D6759D022FC3462C00478861 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D6759D032FC3462C00478861 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D6759D0C2FC3462D00478861 /* PCPortalJavaTests */ = {
+			isa = PBXGroup;
+			children = (
+				D6759D0D2FC3462D00478861 /* PCPortalJavaTests.swift */,
+			);
+			path = PCPortalJavaTests;
+			sourceTree = "<group>";
+		};
+		D6759D162FC3462D00478861 /* PCPortalJavaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D6759D172FC3462D00478861 /* PCPortalJavaUITests.swift */,
+				D6759D192FC3462D00478861 /* PCPortalJavaUITestsLaunchTests.swift */,
+			);
+			path = PCPortalJavaUITests;
+			sourceTree = "<group>";
+		};
+		D6759D262FC3468900478861 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D6759D272FC3469C00478861 /* Bio.swift */,
+				D6759D292FC346B200478861 /* JavaBook.swift */,
+				D6759D2B2FC346CF00478861 /* QuizQuestions.swift */,
+				D6759D3B2FC349C000478861 /* LocationInfo.swift */,
+				D6759D412FC34CE100478861 /* LocationPin.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D6759D2D2FC346DC00478861 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D6759D2E2FC346F000478861 /* BioViewModel.swift */,
+				D6759D302FC3470A00478861 /* BooksViewModel.swift */,
+				D6759D322FC3472300478861 /* QuizViewModel.swift */,
+				D6759D3D2FC349D700478861 /* LocationViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D6759D342FC3473400478861 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D6759CFE2FC3462900478861 /* ContentView.swift */,
+				D6759D352FC3474100478861 /* BioView.swift */,
+				D6759D372FC3475F00478861 /* BooksView.swift */,
+				D6759D392FC3477600478861 /* QuizView.swift */,
+				D6759D3F2FC349EF00478861 /* LocationView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D6759CF82FC3462900478861 /* PCPortalJava */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6759D1D2FC3462D00478861 /* Build configuration list for PBXNativeTarget "PCPortalJava" */;
+			buildPhases = (
+				D6759CF52FC3462900478861 /* Sources */,
+				D6759CF62FC3462900478861 /* Frameworks */,
+				D6759CF72FC3462900478861 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PCPortalJava;
+			productName = PCPortalJava;
+			productReference = D6759CF92FC3462900478861 /* PCPortalJava.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D6759D082FC3462D00478861 /* PCPortalJavaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6759D202FC3462D00478861 /* Build configuration list for PBXNativeTarget "PCPortalJavaTests" */;
+			buildPhases = (
+				D6759D052FC3462D00478861 /* Sources */,
+				D6759D062FC3462D00478861 /* Frameworks */,
+				D6759D072FC3462D00478861 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6759D0B2FC3462D00478861 /* PBXTargetDependency */,
+			);
+			name = PCPortalJavaTests;
+			productName = PCPortalJavaTests;
+			productReference = D6759D092FC3462D00478861 /* PCPortalJavaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D6759D122FC3462D00478861 /* PCPortalJavaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6759D232FC3462D00478861 /* Build configuration list for PBXNativeTarget "PCPortalJavaUITests" */;
+			buildPhases = (
+				D6759D0F2FC3462D00478861 /* Sources */,
+				D6759D102FC3462D00478861 /* Frameworks */,
+				D6759D112FC3462D00478861 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6759D152FC3462D00478861 /* PBXTargetDependency */,
+			);
+			name = PCPortalJavaUITests;
+			productName = PCPortalJavaUITests;
+			productReference = D6759D132FC3462D00478861 /* PCPortalJavaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D6759CF12FC3462900478861 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					D6759CF82FC3462900478861 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					D6759D082FC3462D00478861 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = D6759CF82FC3462900478861;
+					};
+					D6759D122FC3462D00478861 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = D6759CF82FC3462900478861;
+					};
+				};
+			};
+			buildConfigurationList = D6759CF42FC3462900478861 /* Build configuration list for PBXProject "PCPortalJava" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D6759CF02FC3462900478861;
+			productRefGroup = D6759CFA2FC3462900478861 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D6759CF82FC3462900478861 /* PCPortalJava */,
+				D6759D082FC3462D00478861 /* PCPortalJavaTests */,
+				D6759D122FC3462D00478861 /* PCPortalJavaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D6759CF72FC3462900478861 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D682EC8C2FC36EDA00EFB2C1 /* LaunchScreen.storyboard in Resources */,
+				D6759D042FC3462C00478861 /* Preview Assets.xcassets in Resources */,
+				D6759D012FC3462C00478861 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6759D072FC3462D00478861 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6759D112FC3462D00478861 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D6759CF52FC3462900478861 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6759D362FC3474100478861 /* BioView.swift in Sources */,
+				D6759CFF2FC3462900478861 /* ContentView.swift in Sources */,
+				D6759D3A2FC3477600478861 /* QuizView.swift in Sources */,
+				D6759D2F2FC346F000478861 /* BioViewModel.swift in Sources */,
+				D6759D282FC3469C00478861 /* Bio.swift in Sources */,
+				D6759D332FC3472300478861 /* QuizViewModel.swift in Sources */,
+				D6759D422FC34CE100478861 /* LocationPin.swift in Sources */,
+				D6759D3C2FC349C000478861 /* LocationInfo.swift in Sources */,
+				D6759D312FC3470A00478861 /* BooksViewModel.swift in Sources */,
+				D6759D2C2FC346CF00478861 /* QuizQuestions.swift in Sources */,
+				D6759D3E2FC349D700478861 /* LocationViewModel.swift in Sources */,
+				D6759D382FC3475F00478861 /* BooksView.swift in Sources */,
+				D6759D402FC349EF00478861 /* LocationView.swift in Sources */,
+				D6759D2A2FC346B200478861 /* JavaBook.swift in Sources */,
+				D6759CFD2FC3462900478861 /* PCPortalJavaApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6759D052FC3462D00478861 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6759D0E2FC3462D00478861 /* PCPortalJavaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6759D0F2FC3462D00478861 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6759D182FC3462D00478861 /* PCPortalJavaUITests.swift in Sources */,
+				D6759D1A2FC3462D00478861 /* PCPortalJavaUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D6759D0B2FC3462D00478861 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6759CF82FC3462900478861 /* PCPortalJava */;
+			targetProxy = D6759D0A2FC3462D00478861 /* PBXContainerItemProxy */;
+		};
+		D6759D152FC3462D00478861 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6759CF82FC3462900478861 /* PCPortalJava */;
+			targetProxy = D6759D142FC3462D00478861 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D6759D1B2FC3462D00478861 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D6759D1C2FC3462D00478861 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D6759D1E2FC3462D00478861 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PCPortalJava/Preview Content\"";
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tvos.PCPortalJava;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D6759D1F2FC3462D00478861 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PCPortalJava/Preview Content\"";
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tvos.PCPortalJava;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D6759D212FC3462D00478861 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tvos.PCPortalJavaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PCPortalJava.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PCPortalJava";
+			};
+			name = Debug;
+		};
+		D6759D222FC3462D00478861 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tvos.PCPortalJavaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PCPortalJava.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PCPortalJava";
+			};
+			name = Release;
+		};
+		D6759D242FC3462D00478861 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tvos.PCPortalJavaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PCPortalJava;
+			};
+			name = Debug;
+		};
+		D6759D252FC3462D00478861 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tvos.PCPortalJavaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PCPortalJava;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D6759CF42FC3462900478861 /* Build configuration list for PBXProject "PCPortalJava" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6759D1B2FC3462D00478861 /* Debug */,
+				D6759D1C2FC3462D00478861 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6759D1D2FC3462D00478861 /* Build configuration list for PBXNativeTarget "PCPortalJava" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6759D1E2FC3462D00478861 /* Debug */,
+				D6759D1F2FC3462D00478861 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6759D202FC3462D00478861 /* Build configuration list for PBXNativeTarget "PCPortalJavaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6759D212FC3462D00478861 /* Debug */,
+				D6759D222FC3462D00478861 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6759D232FC3462D00478861 /* Build configuration list for PBXNativeTarget "PCPortalJavaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6759D242FC3462D00478861 /* Debug */,
+				D6759D252FC3462D00478861 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D6759CF12FC3462900478861 /* Project object */;
+}
